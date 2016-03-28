@@ -1,0 +1,18 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .container { max-width: 900px; }
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+.header > .brand-name {
+  margin: 0;
+  color: #777;
+}
