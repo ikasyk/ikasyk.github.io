@@ -1,0 +1,19 @@
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.header > .brand-name {
+  color: #777;
+}
+
+#cl-input-text, #cl-output-text {
+  max-width: 100%;
+  margin-bottom: 10px;
+  height: 110px;
+}
+
+#cl-output-text[readonly] {
+  background-color: #fff;
+}
