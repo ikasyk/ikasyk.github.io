@@ -1,0 +1,55 @@
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.header > .brand-name {
+  color: #777;
+}
+
+#na-form .input-group-addon {
+  font-size: 46px;
+}
+
+#na-input {
+  font-size: 46px;
+  width: 230px;
+  height: auto;
+  float: none;
+}
+
+#na-submit {
+  height: 100%;
+  width: 100px;
+}
+.input-group-btn {
+  vertical-align: top;
+}
+
+.na-system {
+  font-weight: bolder;
+}
+
+.tt-menu {
+  background: #FFF;
+  width: 230px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 0px 0px 4px 4px;
+  text-align: left;
+}
+
+.tt-suggestion {
+  font-size: 14px;
+  padding: 3px 10px;
+  line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor {
+  background: #f0f0f0;
+}
+.tt-suggestion:hover {
+  background: #3298d0;
+  color: #FFF;
+  cursor: pointer;
+}

@@ -1,18 +1,101 @@
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .container { max-width: 900px; }
+h1 { margin-top: 0px; }
+
+.container { width: 940px; position: relative;}
+
+.sidebar {
+  position: fixed;
+  top: 300px;
+  bottom: 0;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 300px;
+  z-index: 1000;
 }
 
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eaeaea;
-  margin-bottom: 20px;
-}
-.header > .brand-name {
+#sidebar-nav {
   margin: 0;
-  color: #777;
+  padding: 0;
+}
+
+#sidebar-nav li {
+  list-style: none;
+}
+
+#sidebar-nav li a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+#sidebar-nav li a:hover {
+  text-decoration: none;
+}
+
+#sidebar-nav li.active a { color: #FFF; }
+#sidebar-nav li.active a.blue { background: #0099cc; }
+#sidebar-nav li.active a.aqua { background: #2db2b2; }
+#sidebar-nav li.active a.yellow { background: #dbbc0c; }
+
+.block-wrap {
+  position: relative;
+  padding-left: 300px;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-attachment: fixed;
+  min-height: 300px;
+}
+
+.block-wrap.blue { background-image: url(../images/ik-blue-full.png); }
+.block-wrap.aqua { background-image: url(../images/ik-aqua-full.png); }
+.block-wrap.green { background-image: url(../images/ik-green-full.png); }
+.block-wrap.yellow { background-image: url(../images/ik-yellow-full.png); }
+.block-wrap.red { background-image: url(../images/ik-red-full.png); }
+
+.content {
+  padding: 20px;
+}
+
+
+@media (max-width: 992px) {
+  .container { width: 100%;;}
+  .sidebar {
+    position: static;
+    width: auto;
+    padding-top: 250px;
+    background: url(../images/ik-blue.png) no-repeat top center;
+  }
+  .block-wrap {
+    padding-left: 0;
+    min-height: auto;
+    background: #FFF;
+  }
+  .block-wrap.blue, .block-wrap.aqua, .block-wrap.green, .block-wrap.yellow, .block-wrap.red {
+    background-image: none;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0 10px;
+}
+#facebook, #vk {
+  display: inline-block;
+  margin: 8px 2px;
+  line-height: 18px;
+  padding-left: 20px;
+}
+
+#facebook a, #vk a {
+  padding-left: 20px;
+  background: no-repeat center left url(../images/vk.gif);
+}
+
+#facebook a {
+  margin-top: 12px;
+  background-image: url(../images/fb.gif);
 }
