@@ -1,0 +1,15 @@
+{
+  "name": "tvbox.pro",
+  "version": "1.0.0",
+  "description": "Site for TvBox saling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IKasyk",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

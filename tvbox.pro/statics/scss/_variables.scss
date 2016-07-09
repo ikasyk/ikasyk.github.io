@@ -1,0 +1,61 @@
+                /* 
+                 ** PAGE LAYOUT ** */
+
+  $default-font-family: 'Open Sans', sans-serif;
+
+    $default-font-size: 12px;
+
+   $default-page-width: 1020px;
+
+              $a-color: #CC3342;
+$default-divider-color: #ccc;
+
+$shopping-card-icon-width: 34px;
+$shopping-card-icon-height: 28px;
+$shopping-card-icon-image: url(../images/icons/shopping-card.png);
+
+$footer-padding: 15px;
+$footer-social-image: url(../images/icons/social-sites.gif);
+
+              /* 
+               ** HEADER */
+$login-links-font-size: 11px;
+    $top-nav-font-size: 13px;
+
+           $logo-width: 170px;
+     $top-nav-li-width: 170px;
+      $top-nav-a-width: 150px;
+
+          $logo-height: 70px;
+    $top-nav-li-height: 70px;
+     $top-nav-a-height: 36px;
+
+    $login-links-color: #333;
+        $top-nav-color: #050505;
+$top-nav-a-hover-color: $a-color;
+
+        $top-nav-a-border-color: #5c5c5c;
+  $top-nav-a-hover-border-color: $a-color;
+
+           $logo-image: url(../images/logo.png);
+
+           /* INDEX PAGE*/
+
+$index-box-font-size: 28px;
+
+$index-box-color: #333;
+
+$box-li-width: 280px;
+
+$box-li-height: 330px;
+
+$index-section-padding: 50px;
+
+$index-boxes-margin-top: 30px;
+$index-boxes-margin-bottom: 50px;
+
+$msq-medium-image: url(../images/products/medium/msq.png);
+$t95n-medium-image: url(../images/products/medium/t95n.png);
+$t95m-medium-image: url(../images/products/medium/t95m.png);
+$index-get-channels-image: url(../images/index-get-channels.png);
+$index-channels-image: url(../images/index-channels.png);

@@ -1,0 +1,56 @@
+#login-links {
+  font-size: $login-links-font-size;
+  color: $login-links-color;
+  text-align: right;
+  padding: 5px 0;
+
+  a {
+    color: $login-links-color;
+  }
+}
+
+header nav {
+  height: $logo-height;
+  margin-bottom: 5px;
+}
+
+a#logo {
+  position: relative;
+  top: -10px;
+  float: left;
+  display: block;
+  width: $logo-width;
+  height: $logo-height;
+  background: $logo-image no-repeat top left;
+  text-indent: -9999px;
+}
+
+ul#top-nav {
+  float: right;
+
+  li {
+    float: left;
+    width: $top-nav-li-width;
+    height: $top-nav-li-height;
+    line-height: $top-nav-li-height;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      font-size: $top-nav-font-size;
+      color: $top-nav-color;
+      text-align: center;
+      line-height: $top-nav-a-height;
+      border: 2px solid $top-nav-a-border-color;
+      border-radius: 7px;
+      width: $top-nav-a-width;
+    }
+
+    a:hover {
+      border-color: $top-nav-a-hover-border-color;
+      color: $top-nav-a-hover-color;
+    }
+  }
+
+
+}
