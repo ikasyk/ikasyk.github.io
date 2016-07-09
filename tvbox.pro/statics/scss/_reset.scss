@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+}
+
+a {
+  text-decoration: none;
+  color: $a-color;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.no-hover:hover {
+  text-decoration: none;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bg-single {
+  background: transparent no-repeat top center;
+}
+
+.bg-single-center {
+  background: transparent no-repeat center center;
+}
+
+p {
+  padding-bottom: 5px;
+}

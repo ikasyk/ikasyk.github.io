@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Random Numbers / IKasyk</title>
+
+    <!-- Bootstrap -->
+    <link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../../css/online/random.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="brand-name">Random Numbers</h3>
+      </div>
+      <form id="rn-form">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label for="rn-minimum">Minimum value:</label>
+              <input type="text" class="form-control" id="rn-minimum" placeholder="1">
+            </div>
+            <div class="form-group">
+              <label for="rn-maximum">Maximum value:</label>
+              <input type="text" class="form-control" id="rn-maximum" placeholder="100">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" checked id="rn-integers"> Only integers
+              </label>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label for="rn-numbers">Numbers:</label>
+              <input type="text" class="form-control" id="rn-numbers" placeholder="1">
+            </div>
+            <div class="form-group">
+              <label for="rn-divider">Divider:</label>
+              <input type="text" class="form-control" id="rn-divider" placeholder=" ">
+              <p class="help-block">Insert divider between numbers, for example ", " returns "1, 5, 4".</p>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="rn-button">Generate numbers</button>
+      </form>
+      <div class="" id="rn-result">
+        <h3>Result</h3>
+        <textarea class="form-control" id="rn-output-text" readonly></textarea>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../js/online/random.js"></script>
+  </body>
+</html>
